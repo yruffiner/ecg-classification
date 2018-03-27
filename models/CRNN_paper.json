@@ -1,0 +1,45 @@
+{
+    "model_name": "CRNN",
+
+    "model_parameters": {
+        "n_channels_first": 32,
+        "growth_block_end": 32,
+        "n_conv_blocks": 4,
+        "kernel_size": [5,5],
+        "dilation_rates": [1,1,1,1,1,1],
+        "strides_block_end": [2,2],
+        "max_pooling": false,
+        "n_lstmneurons": 200,
+        "n_lstmlayers": 3,
+        "bidirectional": true
+    },
+    
+    "preprocessing": {
+        "spectrogram": true,
+        "nperseg": 64,
+        "noverlap": 32
+    },
+ 
+    "loss_function_parameters": {
+        "l2_penalty": 0,
+        "class_penalty": 0.2
+    },
+
+    "training_parameters": {
+        "learning_rate": 0.001,
+        "batch_size": 20,
+        "drop_rate": 0.15,
+        "exponential_decay": false,
+        "dataset_compensation": 0.2,
+        "validation_step": 5,
+        "early_stop_wait": 100
+    },
+    
+    "data_augmentation": {
+        "resampling": true,
+        "resample_method": "random",
+        "zero_filter": true,
+        "reload_step": 5,
+        "awgn": false
+    }
+}

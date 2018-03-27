@@ -1,0 +1,13 @@
+tensorflow-gpu==1.0.0
+scipy==1.0.0
+cycler==0.10.0
+numpy==1.13.3
+matplotlib==2.1.0
+parse==1.8.2
+protobuf==3.5.0.post1
+pyparsing==2.2.0
+python-dateutil==2.6.1
+pytz==2017.3
+scikit-learn==0.19.1
+six==1.11.0
+sklearn==0.0

@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!REFERENCE-v3.csv
+!splits/
+!splits/*/
+!splits/*/*

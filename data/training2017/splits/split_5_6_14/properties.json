@@ -1,0 +1,21 @@
+{
+    "inputs": {
+        "(train+valid)/valid": 6,
+        "holdout": false,
+        "number of folds": 5,
+        "seed": 14
+    },
+    "name": "split_5_6_14",
+    "relative size": {
+        "holdout": 0,
+        "test": 3,
+        "train": 10,
+        "valid": 2
+    },
+    "relative size fraction": {
+        "holdout": 0.0,
+        "test": 0.2,
+        "train": 0.66667,
+        "valid": 0.13333
+    }
+}
